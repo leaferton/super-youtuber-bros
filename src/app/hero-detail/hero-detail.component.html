@@ -6,5 +6,10 @@
     <label for="hero-name">Hero name: </label>
     <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
   </div>
+ <h2> {{hero.description}} </h2>
+ <h2><a href="{{hero.url}}"   target=_blank>{{hero.name}}'s Channel</a></h2>
+ <h2><a href="{{hero.video}}"   target=_blank>one of {{hero.name}}'s videos</a></h2>
 
+<!-- <iframe width="560" height="315" [src]="safeURL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><
+</iframe>  -->                        
 </div>
