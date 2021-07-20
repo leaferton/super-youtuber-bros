@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "super-bros-fd6b4": {
+      "hosting": {
+        "angular-tour-of-heroes": [
+          "super-bros-fd6b4"
+        ]
+      }
+    }
+  }
+}
