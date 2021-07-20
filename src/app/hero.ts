@@ -4,4 +4,5 @@ export interface Hero {
   description: string;
   url: string;
   video: string;
+  rick: boolean;
 }
