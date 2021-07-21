@@ -1,20 +1,9 @@
 <div *ngIf="hero">
-
- <!-- this is the the bro div -->
- <div *ngIf="hero.rick === false">
- 	  <h2>{{hero.name | uppercase}} Details</h2>
-	  <div><span>id: </span>{{hero.id}}</div>
-	  <div>
-	    <label for="hero-name">Hero name: </label>
-	    <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
-	  </div>
-	 <h2> {{hero.description}} </h2>
-	 <h2><a href="{{hero.url}}"   target=_blank>{{hero.name}}'s Channel</a></h2>
-	 <h2><a href="{{hero.video}}"   target=_blank>one of {{hero.name}}'s videos</a></h2>
- </div>
- <!-- This is the Rick div -->
- <div *ngIf="hero.rick === true">
-	 <h2><a href="{{hero.video}}"   target=_blank>one of {{hero.name}}'s videos</a></h2>
-	 <iframe width="1000" height="700" src="https://www.youtube.com/embed/xfr64zoBTAQ?controls=0&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- </div>
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label for="hero-name">Hero name: </label>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
+  </div>
+  <button (click)="goBack()">go back</button>
 </div>
