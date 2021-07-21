@@ -10,5 +10,5 @@ export const HEROES: Hero[] = [
   { id: 7, rick:false, name: 'Slimecicle', description: 'Dap Me Up', url: 'https://www.youtube.com/c/Slimecicle/videos?view=0&sort=p&flow=grid', video:'https://www.youtube.com/watch?v=j8qp3ITVqY0&ab_channel=Slimecicle'},
   { id: 8, rick:false, name: 'Jshlatt', description: '"Truly disgusting that some “people” would do this horrible thing."', url: 'https://www.youtube.com/channel/UC2mP7il3YV7TxM_3m6U0bwA', video:'https://www.youtube.com/watch?v=Iy-Z6S7cFJc&ab_channel=jschlattLIVE'},
   { id: 9, rick:false, name: 'Leaferton', description: 'WASSUP (best youtube channel ever, this is totally unbiased)', url: 'https://www.youtube.com/channel/UCHV-7RiAJqczPdV5MwA2-cQ', video: 'https://www.youtube.com/watch?v=4CVII0RXfWc&t=51s&ab_channel=Leaferton'},
-  { id: 5, rick:true, name: 'Super Secret Youtuber', description: '', url: '', video:''},
+  { id: 10, rick:true, name: 'Super Secret Youtuber', description: '', url: '', video:''},
 ];
